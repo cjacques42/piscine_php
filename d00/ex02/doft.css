@@ -1,0 +1,160 @@
+body {
+	background-color: #505050;
+	padding:0px;
+	margin:0px;
+}
+
+.red_border {
+	border:7px solid red;
+}
+
+.object_45 {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:50%;
+}
+
+.object_90 {
+	width:90%;
+}
+
+.angle_10 {
+	border-radius:10px;
+}
+
+.angle_5 {
+	border-radius:5px;
+}
+
+.shadow {
+	box-shadow:10px 10px 10px black;
+}
+
+.img_42 {
+	margin-top:1%;
+	margin-bottom:1%;
+	margin-left:0.5%;
+	height:80%;
+	width:35%
+}
+
+.img_mid {
+	float:left;
+	margin-left:1.5%;
+	margin-top:1.3%;
+	border:15px solid #909090;
+	padding:0px;
+	width:52%;
+	background-color:#909090;
+}
+
+.arial {
+	font-family: arial;
+	font-size:1.3em;
+}
+
+.input {
+	width:80%;
+	height:20px;
+	box-shadow:inset 0.2px 0.2px 0.2px;
+}
+
+.button {
+	margin-left:1%;
+	padding:5px;
+}
+
+.bricks {
+	height:20%; 
+	width:80%;
+	background-image:url("resources/brick.jpg");
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header	{
+	background-color:#909090;
+	margin-top:1%;
+	margin-left:auto;
+	margin-right:auto;
+	height:170px;
+	width:75%;
+}
+
+#left {
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+	height:440px;
+	height:50%;
+	width:8%;
+	margin-left: 14%;
+	margin-top:1.3%;
+	text-align:center;
+	background-color:#909090;
+}
+
+#close {
+	position:absolute;
+	width:30px;
+	height:30px;
+	top:145px;
+	right:13.3%;
+}
+
+#reload {
+	position:absolute;
+	width:30px;
+	height:30px;
+	top:30px;
+	right:13.3%;
+}
+
+#loupe {
+	position:absolute;
+	top:3.5%;
+	height:15%;
+	width:15%;
+	right:15%;
+}
+
+#right {
+	padding-top:15px;
+	padding-bottom:15px;
+	float:left;
+	height:440px;
+	width:8%;
+	margin-top:1.3%;
+	margin-left:1.5%;
+	text-align:center;
+	background-color:#909090;
+}
+
+#chair {
+	position:absolute;
+	width:6%;
+	height:18%;
+	margin-top:19%;
+	margin-left:41%;
+}
+
+#screen {
+	position:absolute;
+	width:10%;
+	height:14%;
+	margin-top:18%;
+	margin-left:65%;
+}
+
+#green {
+	position:absolute;
+	background-color:#86FD87;
+	padding:5px 20px 60px 20px;
+	margin-left:10%;
+	margin-top:27%;
+	width:27%;
+}

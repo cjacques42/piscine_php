@@ -1,0 +1,41 @@
+body {
+	text-align:center;
+	background-color:#FFE5CC;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.menu {
+	width:200px;
+	text-align:center;
+	border:3px solid red;
+	padding:8px;
+	font-weight:bold;
+	font-size:100%;
+}
+
+.menu-content li {
+	color:black;
+	display:none;
+}
+
+.menu:hover li {
+	display:block;
+}
+
+li:hover {
+	display: inline
+}
+
+li:hover {
+	background-color:#E0E0E0;
+	font-size:120%;
+	font-weight:bold;
+}
+
+a:link {
+	text-decoration:none
+}
