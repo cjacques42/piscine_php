@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Balloon</title>
+		<style>
+			#balloon {border-radius:50%;width:200px;height:200px;background-color:red;}
+		</style>
+	</head>
+	<body>
+		<div id="balloon" onclick="increase()" onmouseleave="reduce()"></div>
+		<script>
+			var circle = 200;
+			var color = ["red", "green", "blue"];
+			var i = 0;
+			var ball = document.getElementById("balloon");
+			function increase()
+			{
+				if (circle < 20 || circle > 420)
+					circle = 200;
+				circle = circle + 10;
+				i++;
+				if (i == 3)
+					i = 0;
+				ball.style.backgroundColor = color[i];
+				ball.style.width = circle + 'px';
+				ball.style.height = circle + 'px';
+				
+			}
+			function reduce()
+			{
+				if (circle <= 200)
+					return;
+				circle = circle - 5;
+				i--;
+				if (i < 0)
+					i = 2;
+				ball.style.backgroundColor = color[i];
+				ball.style.width = circle + 'px';
+				ball.style.height = circle + 'px';
+				
+					
+			}
+		</script>
+	</body>
+</html>

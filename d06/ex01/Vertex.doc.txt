@@ -1,0 +1,45 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Color class handles VERTEX.
+
+An instance can be contructed like this:
+new Vertex( array( 'x' => 1.0, 'y' => 2.0, 'z' => 3.0, 'w' => 2.0, 'color' => $color ) );
+$color = new Color()
+
+x, y, z and w values are float and color is a color instance.
+w and color have a default value.
+Default values of w: 1.0
+Default values of color: fresh instance of white color
+
+The class provides the following methods :
+
+Vertex   getX( $v );
+Get Accessor on private value: $_x.
+
+Vertex   getY( $v );
+Get Accessor on private value: $_y.
+
+Vertex   getZ( $v );
+Get Accessor on private value: $_z.
+
+Vertex   getW( $v );
+Get Accessor on private value: $_z.
+
+Vertex   getColor( Color $rhs );
+Get Accessor on private value: $_color.
+
+Vertex   setX( $v );
+Set Accessor on private value: $_x.
+
+Vertex   setY( $v );
+Set Accessor on private value: $_y.
+
+Vertex   setZ( $v );
+Set Accessor on private value: $_z.
+
+Vertex   setW( $v );
+Set Accessor on private value: $_z.
+
+Vertex   setColor( Color $rhs );
+Set Accessor on private value: $_color.
+---------------------------------------------------------------------- Vertex ->
